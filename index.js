@@ -6082,7 +6082,7 @@ client.on('guildMemberRemove', async (member) => {
                 const leaveEmbed = new EmbedBuilder()
                     .setColor('#8A00C4')
                     .setTitle(`Goodbye ${member.user.tag}`)
-                    .setDescription(`**${member.user.tag} left ${member.guild.name}**\n\nWe now have **${memberCount}** members.\n\nThis server is protected by **Quarantianizo . Security . Antinuke . NextGen Automods System** developed by **script.agi**`)
+                    .setDescription(`**${member.user.tag} left ${member.guild.name}**\n\nWe now have **${memberCount}** members.\n\nThis server is protected by **Quarantianizo . Security . Antinuke . NextGen Automods System** developed by **script**`)
                     .setThumbnail(member.user.displayAvatarURL({ dynamic: true, size: 256 }))
                     .setImage('https://cdn.discordapp.com/attachments/1430995384142139576/1431990805916286976/VivaCut_video_1761221514978_HD-ezgif.com-optimize.gif?ex=68ff6cdd&is=68fe1b5d&hm=c19c7f3b2d4adbc5b49808f19c96f6992a68bf976cf23cb00768a1e9aa460a14&')
                     .setFooter({ text: `${member.guild.name} secured by Quarantianizo . Security . Systems` })
@@ -6126,9 +6126,9 @@ client.on('guildMemberAdd', async (member) => {
                 const welcomeEmbed = new EmbedBuilder()
                     .setColor('#8A00C4')
                     .setTitle(`Welcome to ${member}`)
-                    .setDescription(`**Welcome to ${member.guild.name}**\n\nYou are the **${memberCount}th** member!\n\nThis server is protected by **Quarantianizo . Security . Antinuke . NextGen Automods System** developed by **script.agi**`)
+                    .setDescription(`**Welcome to ${member.guild.name}**\n\nYou are the **${memberCount}th** member!\n\nThis server is protected by **Quarantianizo . Security . Antinuke . NextGen Automods System** developed by **script**`)
                     .setThumbnail(member.user.displayAvatarURL({ dynamic: true, size: 256 }))
-                    .setImage('https://cdn.discordapp.com/attachments/1430995384142139576/1431990805916286976/VivaCut_video_1761221514978_HD-ezgif.com-optimize.gif?ex=68ff6cdd&is=68fe1b5d&hm=c19c7f3b2d4adbc5b49808f19c96f6992a68bf976cf23cb00768a1e9aa460a14&')
+                    .setImage('https://cdn.discordapp.com/attachments/1431005018307428362/1432390196673904691/VivaCut_video_1761221514978_HD-ezgif.com-optimize.gif?ex=6900e0d3&is=68ff8f53&hm=7dc570461f493b8e9618c250dec285bb3b48ddd6b60744d18ce5ece1e888a6e5&')
                     .setFooter({ text: `${member.guild.name} secured by Quarantianizo . Security . Systems` })
                     .setTimestamp();
 
