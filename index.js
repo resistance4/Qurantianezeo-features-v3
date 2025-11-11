@@ -5083,7 +5083,7 @@ client.on('raw', (data) => {
 });
 
 // Home voice channel configuration
-const HOME_VOICE_CHANNEL_ID = '1432379747048099951';
+const HOME_VOICE_CHANNEL_ID = '1377806787431895181';
 
 // Function to auto-join home voice channel
 async function autoJoinHomeChannel(guild) {
